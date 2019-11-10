@@ -1,0 +1,242 @@
+body{
+    font-family: 'Lato', Arial;
+    font-size: 12pt;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+    .home {
+        height: 555px !important;
+    }
+
+    .home img {
+        height: 70px;
+    }
+    .home .container{
+        padding-top: 50px !important;
+    }
+
+    .home h1 {
+        padding-top: 30px !important;
+        font-size: 7em !important;
+    }
+
+    .home h2 {
+        font-size: 4.2em !important;
+    }
+
+    .home h3 {
+        font-size: 3em !important;
+    }
+
+    .about img {
+        padding-bottom: 20px;
+    }
+
+    .about p {
+        padding-bottom: 15px;
+    }
+
+    .portfolio h1 {
+        font-size: 4em !important;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+.topnav {
+    box-shadow: 0px 1px 3px #000;
+    background-color: #333;
+}
+
+.topnav .container {
+    background-color: #222;
+    box-shadow: 2px 0px 5px #111, -2px 0px 5px #111;
+
+}
+.topnav ul.navbar-nav li a {
+    color: #ccc;
+    font-size: 1.3em;
+}
+
+.topnav ul.navbar-nav li a:hover, .topnav ul.navbar-nav li.active a {
+    text-shadow: 1px 1px 1px #000;
+    background-color: #563d7c;
+    border-left: 1px solid #111;
+    border-right: 1px solid #111;
+}
+
+.topnav ul.navbar-nav li a:active {
+    background-color: #3c2b57;
+    background-image: none;
+}
+
+.home {
+    background: url('images/hero-bg-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 855px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home .container {
+    padding-top: 60px;
+}
+
+
+
+.home h1, .home h2, .home h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.home h1{
+    font-size: 9em;
+    text-shadow: 2px 1px 2px #000;
+    padding-top: 100px;
+}
+
+.home h2{
+    font-size: 5em;
+    text-shadow: 2px 1px 1px #000;
+}
+
+.home h3 {
+    font-size: 3em;
+    text-shadow: 2px 1px 1px #000;
+}
+
+.about h1, .about h2 {
+    color: #563d7c;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+about h1 {
+    font-size: 3em;
+}
+
+.about h2 {
+    font-size: 2em;
+}
+
+.about {
+    background-color: #fff;
+}
+
+.about .container {
+    padding: 80px 0px 80px 0px;
+}
+
+.about .container p {
+    text-indent: 20px;
+    font-size: 1.4em;
+}
+
+.portfolio {
+    background-color: #563d7c;
+}
+
+.portfolio .container {
+    padding: 80px 0px 80px 0px;
+}
+
+.portfolio h1 {
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.contact {
+    background-color: #fff;
+}
+
+.contact .container {
+    padding: 80px 0px 80px 0px;
+}
+
+.contact h1{
+    color: #563d7c;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contact h2{
+    color: #563d7c;
+    font-size: 2em;
+}
+
+.contact p {
+    color: #000;
+    font-size: 1.3em;
+}
+
+.glyphicon {
+    font-size: 70px;
+}
+
+.form-group label {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+#contactForm textarea {
+
+}
+
+.footer {
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.footer p {
+    color: #bbb;
+}
+
+.footer .fa{
+    font-size: 35px;
+}
+
+.footer a {
+    color: #999;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer a:active {
+    color: #bbb;
+}
+
+.footer li {
+    padding-left: 10px;
+}
